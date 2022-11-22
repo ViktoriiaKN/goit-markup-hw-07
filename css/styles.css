@@ -111,20 +111,25 @@ button {
   align-items: center;
 }
 
-.nav-ul {
+.navigation__list {
   display: flex;
   margin-left: auto;
 }
 
-.nav-li {
+.header__contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.navigation__item {
   margin-right: 50px;
 }
 
-.nav-ul :last-child {
+.navigation__list :last-child {
   margin-right: 0px;
 }
 
-.nav-list {
+.navigation__link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -139,16 +144,16 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list:hover,
-.nav-list:focus {
+.navigation__linkt:hover,
+.navigation__link:focus {
   color: var(--active-color);
 }
 
-.current {
+.navigation__link--current {
   color: var(--active-color);
 }
 
-.current::after {
+.navigation__link--current::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -165,7 +170,7 @@ button {
   list-style: none;
 }
 
-.header-tel {
+.contacts__tel {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -182,12 +187,12 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-tel:hover,
-.header-tel:focus {
+.contacts__tel:hover,
+.contacts__tel:focus {
   color: var(--active-color);
 }
 
-.header-mail {
+.contacts__mail {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -206,24 +211,24 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.contacts__mail:hover,
+.contacts__mail:focus {
   color: var(--active-color);
 }
 
-.item-tel-mail {
+.contacts__item {
   display: flex;
 }
 
-.nav-ul .item-tel-mail + .item-tel-mail {
+.header__contacts .contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
-.mail-icon {
+.contacts__mail-icon {
   fill: currentColor;
 }
 
-.tel-icon {
+.contacts__tel-icon {
   fill: currentColor;
 }
 
