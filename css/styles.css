@@ -255,7 +255,7 @@ button {
     url(../images/Hero-background\(1\).jpg);
 }
 
-.hero-title {
+.section-hero__title {
   margin-top: 0;
   margin-bottom: 30px;
   font-weight: 900;
@@ -270,7 +270,7 @@ button {
   margin-right: auto;
 }
 
-.hero-button {
+.section-hero__button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   font-size: 16px;
