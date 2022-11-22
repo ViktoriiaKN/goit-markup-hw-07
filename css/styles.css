@@ -49,6 +49,7 @@ p {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 button {
@@ -84,7 +85,7 @@ button {
   text-align: left;
 }
 
-.logo-link {
+.header__logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -92,16 +93,15 @@ button {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   margin-right: 93px;
-  display: block;
 
   align-items: center;
 }
 
-.logo-color {
+.header__logo--primary {
   color: var(--active-color);
 }
 
-.studio-color {
+.header__logo--secondary {
   color: var(--font-color);
 }
 
@@ -130,7 +130,7 @@ button {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--nav-color);
-  display: block;
+
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
@@ -671,7 +671,6 @@ button {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  display: block;
 
   align-items: center;
 }
@@ -699,7 +698,7 @@ button {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--btn-color);
-  display: inline-block;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -709,7 +708,7 @@ button {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--btn-color);
-  display: inline-block;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
