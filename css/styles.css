@@ -34,23 +34,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container-p {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  text-align: center;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -68,8 +51,26 @@ ul {
   padding: 0;
 }
 
-.text-decoration {
-  text-decoration: none;
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  text-align: center;
 }
 
 .header {
@@ -265,7 +266,6 @@ ul {
 }
 
 .hero-button {
-  font-family: inherit;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   font-size: 16px;
@@ -276,7 +276,7 @@ ul {
   border-radius: 4px;
   color: var(--project-background);
   background-color: var(--active-color);
-  cursor: pointer;
+
   border-color: transparent;
   transition-property: background-color;
   transition-duration: 250ms;
@@ -807,7 +807,7 @@ ul {
 
 .application-button-footer {
   display: flex;
-  font-family: inherit;
+
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -817,7 +817,7 @@ ul {
   width: 200px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
+
   border: 1px transparent;
   border-radius: 4px;
   color: var(--white-color);
@@ -1083,7 +1083,6 @@ ul {
 }
 
 .application-button {
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -1092,7 +1091,7 @@ ul {
   width: 200px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
+
   border-color: transparent;
   border-radius: 4px;
   color: var(--white-color);
