@@ -1,0 +1,76 @@
+.btn-main-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $project-background;
+    cursor: pointer;
+}
+
+.flex-portfolio-btn {
+    display: flex;
+    margin-bottom: 50px;
+
+    justify-content: center;
+}
+
+.btn-li {
+    margin-right: 8px;
+
+
+&:last-child {
+    margin-right: 0;
+}}
+
+.btn-portfolio {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $nav-color;
+    cursor: pointer;
+    background: $section-background;
+    border-radius: 4px;
+
+    border: 1px solid transparent;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    background-color: $active-color;
+    color: $white-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}}
+
+.application-button-footer {
+    display: flex;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    padding: 10px 28px;
+    gap: 10px;
+    width: 200px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    border: 1px transparent;
+    border-radius: 4px;
+    color: $white-color;
+    background-color: $active-color;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

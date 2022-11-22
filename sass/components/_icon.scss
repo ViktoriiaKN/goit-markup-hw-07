@@ -1,0 +1,97 @@
+.icon-list-team {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-team {
+    width: 44px;
+    height: 44px;
+    background-color: $white-color;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: $icon-color;
+
+
+&:hover,
+&:focus {
+    background-color: $active-color;
+    fill: $white-color;
+}
+
+&:focus .team-icon-li {
+    fill: $white-color;
+}}
+
+.icon-clients {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afb1b8;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+
+
+&:hover .clients-icon-li,
+&:focus .clients-icon-li {
+    fill: $active-color;
+}
+
+&:hover,
+&:focus {
+    border-color: $active-color;
+}}
+
+.clients-icon-li {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: $icon-color;
+}
+
+.icon-footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.icon-footer {
+    width: 44px;
+    height: 44px;
+    background-color: $icon-footer-bgc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    background-color: $active-color;
+}}
+
+.footer-icon-li {
+    fill: $white-color;
+}
+
+.icon-application {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: $white-color;
+}
+
+.icon-application:focus-visible {
+    fill: $active-color;
+    outline: transparent;
+}

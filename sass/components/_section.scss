@@ -1,0 +1,35 @@
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    color: $nav-color;
+    margin-bottom: 50px;
+}
+
+.section-main-second {
+    background: $project-background;
+    padding-bottom: 94px;
+}
+
+.section-team {
+    background: $section-background;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-team-ul {
+    display: flex;
+
+    gap: 30px;
+}
+
+.section-clients {
+    padding: 94px 0;
+}
+
+.section-footer {
+    background: $section-hero-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

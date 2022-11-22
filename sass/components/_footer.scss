@@ -1,0 +1,125 @@
+.form-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-footer {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    margin-right: 12px;
+    background-color: $section-hero-color;
+    border-color: $btn-color;
+    color: $white-color;
+}
+
+.footer-socials {
+    margin-right: 93px;
+}
+
+.join-us {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+}
+
+.section-footer {
+    background: $section-hero-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-contacts {
+    margin-right: 70px;
+}
+
+.logo-link-footer {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+
+    align-items: center;
+}
+
+.adrress-target {
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: $project-background;
+    display: inline-block;
+}
+
+.footer-li {
+    margin-bottom: 9px;
+
+
+&:last-child {
+    margin-bottom: 0;
+}}
+
+.mail-footer {
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: $btn-color;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $active-color;
+    }
+
+}
+
+.tel-footer {
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: $btn-color;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--active-color);
+    }
+
+}
+
+.studio-footer-color {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.addres-footer {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: $btn-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: var(--active-color);
+}}

@@ -1,0 +1,113 @@
+.overlay-portfolio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(101%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: $overlay-bgc;
+}
+
+.overlay-portfolio-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    letter-spacing: 0.03em;
+    color: $white-color;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.portfolio-li:hover .overlay-portfolio,
+.portfolio-li:focus .overlay-portfolio {
+    transform: translateY(0);
+}
+
+.border-text-portfolio {
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: $nav-color;
+}
+
+.portfolio {
+    background: $project-background;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.about-portfolio {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: $p-color;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.flex-element {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+&:nth-child(3n) {
+        margin-right: 0;
+    }}
+
+        .flex-element:nth-last-child(- n + 3) {
+        margin-bottom: 0;
+    }
+
+
+
+.portfolio-li {
+    display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}}
+
+.overlay-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: $background-benefits;
+}
+
+.overlay-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    position: absolute;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-main {
+    text-align: center;
+}
