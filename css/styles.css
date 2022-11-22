@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --font-family: "Roboto", sans-serif;
   --white-color: #ffffff;
   --section-hero-color: #2f303a;
@@ -17,9 +17,9 @@
   --modal: rgba(0, 0, 0, 0.2);
   --background-benefits: rgba(47, 48, 58, 0.8);
   --overlay-bgc: rgba(33, 150, 243, 0.9);
-}
+} */
 
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   color: var(--white-color);
   background: #ffff;
@@ -28,8 +28,8 @@ body {
 address {
   margin-top: 20px;
 }
-
-a {
+ */
+/* a {
   display: inline-block;
   text-decoration: none;
 }
@@ -55,9 +55,9 @@ ul {
 button {
   font-family: inherit;
   cursor: pointer;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -72,9 +72,9 @@ button {
   padding-right: 20px;
 
   text-align: center;
-}
+} */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -164,13 +164,9 @@ button {
   border-radius: 2px;
   margin-bottom: -1px;
   background-color: var(--active-color);
-}
+} */
 
-.list {
-  list-style: none;
-}
-
-.contacts__tel {
+/* .contacts__tel {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -231,7 +227,7 @@ button {
 .contacts__tel-icon {
   fill: currentColor;
 }
-
+ */
 /* ГЕРОЙ */
 
 .section-hero {

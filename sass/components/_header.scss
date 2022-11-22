@@ -1,0 +1,42 @@
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.header__logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+
+    align-items: center;
+}
+
+.header__logo--primary {
+    color: $active-color;
+}
+
+.header__logo--secondary {
+    color: $font-color;
+}
+
+.header__navigation {
+    background: $project-background;
+    display: flex;
+    align-items: center;
+}
+
+.header__contacts {
+    display: flex;
+    margin-left: auto;
+}
+
